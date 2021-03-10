@@ -4,15 +4,31 @@ class App {
     System.out.println();
     System.out.println();
 
-    Person p = new Person();
+    EnglishTeacher et = new EnglishTeacher();
 
-    p.name = "Ram";
-    p.gender = "male";
-    p.age = 1;
+    et.favoriteChapter = "Robinson Cruso";
+    et.qualification = "Matric";
+    et.salary = 100;
+    et.bonus = 233;
+    et.name = "Ram";
+    et.age = 5;
+    et.gender = "male";
 
-    System.out.println(p.name);
-    System.out.println(p.gender);
-    System.out.println(p.age);
+    System.out.println("favoriteChapter: " + et.favoriteChapter);
+    System.out.println("qualification: " + et.qualification);
+    System.out.println("salary: " + et.salary);
+    System.out.println("bonus: " + et.bonus);
+    System.out.println("name: " + et.name);
+    System.out.println("age: " + et.age);
+    System.out.println("gender: " + et.gender);
+
+    System.out.println();
+
+    et.introduce();
+
+    System.out.println();
+
+    et.teach();
   }
 
 }

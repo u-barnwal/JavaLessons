@@ -1,0 +1,3 @@
+class HindiTeacher extends Teacher {
+
+}

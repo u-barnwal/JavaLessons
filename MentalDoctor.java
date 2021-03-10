@@ -1,0 +1,3 @@
+class MentalDoctor extends Doctor {
+
+}
