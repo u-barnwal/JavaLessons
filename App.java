@@ -4,11 +4,11 @@ class App {
     System.out.println();
     System.out.println();
 
-    Person p = new Person();
+    Person p = new Person("Richa", "female", 2);
 
-    p.name = "Ram";
-    p.gender = "male";
-    p.age = 1;
+    // p.name = "Ram";
+    // p.gender = "male";
+    // p.age = 1;
 
     System.out.println(p.name);
     System.out.println(p.gender);
