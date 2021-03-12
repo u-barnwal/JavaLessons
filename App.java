@@ -1,5 +1,6 @@
 import employee.EmployeeAuth;
 import employee.EmployeeProfile;
+import employee.Person;
 
 class App {
 
@@ -21,8 +22,13 @@ class App {
     // EmployeeAuth ea = new EmployeeAuth();
     // System.out.println(ea.email);
 
-    EmployeeProfile ep = new EmployeeProfile();
+    // EmployeeProfile ep = new EmployeeProfile();
 
+    // Person p = new Person();
+    // System.out.println(p.firstName);
+
+    Student s = new Student("Arun", "Kumar");
+    System.out.println(s.getName());
   }
 
 }
